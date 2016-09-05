@@ -1,12 +1,10 @@
 body{
-    
-}
-.wrapper {
     background-image: url(../img/bg.jpg);
-    width: 1920px;
-    height: 1080px;
-    background-size: contain;
+    /* width: 1920px;
+    height: 1080px; */
+    background-repeat: no-repeat;
 }
+
 
 header {
     height: 36px;
@@ -29,6 +27,16 @@ header li {
 }
 .window{
     width: 560px;
-    height: 613px;    
+    height: 613px;
+    background-color: black;
     opacity: 0.63;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+.window li {
+    color: white;
+    font-family: Tahoma;
+    font-size: 24px;
+    font-weight: 400;
 }
